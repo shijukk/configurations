@@ -6,18 +6,22 @@ exclude:
     
 employee: 
   enabled: true
-  discountPercentage: 30
+  discountPercentage: 30.0
   
 affiliate: 
   enabled: true
-  discountPercentage: 10
+  discountPercentage: 10.0
   
 customer:
   enabled: true
   categories:
-    - activeDuration: P2Y
-      discountPercentage: 5
+    - activeDuration: P1Y
+      discountPercentage: 5.0
       enabled: true
+
+invoice:
+  flatDiscount: 5.0
+  discountApplyForEach: 100.0
   
   
 
