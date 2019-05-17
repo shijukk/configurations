@@ -15,7 +15,7 @@ affiliate:
 customer:
   enabled: true
   customerCategories:
-    - activeDuration: P2Y
+    - activeDurationDays: 730
       discountPercentage: 5.0
       enabled: true
 
