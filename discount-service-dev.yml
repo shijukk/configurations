@@ -14,7 +14,7 @@ affiliate:
   
 customer:
   enabled: true
-  categories:
+  customerCategories:
     - activeDuration: P2Y
       discountPercentage: 5.0
       enabled: true
